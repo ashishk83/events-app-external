@@ -41,3 +41,12 @@ git remote add origin https://github.com/ashishk83/events-app-internal.git
 git push -u origin master
 cd sample-master-external
 git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/ashishk83/events-app-external.git
+git push -u origin master
+ls
+npm install
+git add .
+git commit -m "My first change"
+git push origin master
